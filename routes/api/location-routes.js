@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Traveller, Location, Trip } = '';  //placeholder for future model
+const { Traveller, Location, Trip } = require('../../models');
 
 router.get('/', async (req, res) => {
     try {
